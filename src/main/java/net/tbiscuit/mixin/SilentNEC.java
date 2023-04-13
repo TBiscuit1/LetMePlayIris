@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin;
+package net.tbiscuit.mixin;
 
 import net.coderbot.iris.Iris;
 import org.spongepowered.asm.mixin.Mixin;

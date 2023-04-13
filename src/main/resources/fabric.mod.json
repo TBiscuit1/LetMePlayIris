@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lmpi",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Let me play Iris!",
+  "description": "Removes the Not Enough Crashes warning screen from Iris",
   "authors": [
-    "Me!"
+    "TBiscuit1"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/let-me-play-iris",
+    "sources": "https://github.com/TBiscuit1/LetMePlayIris"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/lmpi/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.LetMePlayIris"
+      "net.tbiscuit.LetMePlayIris"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "lmpi.mixins.json"
   ],
 
   "depends": {
