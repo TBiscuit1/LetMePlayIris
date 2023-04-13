@@ -1,8 +1,7 @@
-# Fabric Example Mod
+# Let me play Iris!
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This mod removes the Iris warning message when playing with Not Enough Crashes (that is now here EVERY launch)
+It does it by forcing the "hasNEC" value to false after Iris sets it to true
 
 ## License
 
