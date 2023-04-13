@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.mixin",
+  "package": "net.tbiscuit.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "net.tbiscuit.mixin.SilentNEC"
+    "SilentNEC"
   ],
   "injectors": {
     "defaultRequire": 1
